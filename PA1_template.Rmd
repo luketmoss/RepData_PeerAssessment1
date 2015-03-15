@@ -115,7 +115,8 @@ total number of rows with NAs):
 table(is.na(act_data))
 ```
 There are 2304 missing values.  
-
+  
+  
 Devise a strategy for filling in all of the missing values in the dataset. 
 The strategy does not need to be sophisticated.  
 

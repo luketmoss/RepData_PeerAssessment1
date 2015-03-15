@@ -149,7 +149,8 @@ table(is.na(act_data))
 ## 50400  2304
 ```
 There are 2304 missing values.  
-
+  
+  
 Devise a strategy for filling in all of the missing values in the dataset. 
 The strategy does not need to be sophisticated.  
 
@@ -241,5 +242,5 @@ xyplot(steps ~  interval | day_of_week, data = steps_per_interval_dow,
 ![](PA1_template_files/figure-html/unnamed-chunk-20-1.png) 
   
 Weekday activity has a spike in the morning and then stays relatively lower 
-compared to weekends.  Weekend activity starts later than weekdays but seems to 
-be more constant throughout the day.
+compared to weekends.  Weekend activity seems to be more constant throughout the 
+day without any large spikes.
